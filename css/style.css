@@ -57,10 +57,9 @@ img {
 
 .container {
     max-width: 1158px;
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;  
-    margin-right: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
 }
 
 .page-header {
@@ -69,9 +68,7 @@ img {
 
 .page-header .container {
     display: flex;
-    justify-content: space-around;
-    margin: 0 auto;
-    padding: 0 15px;
+    align-items: center;
 }
 
 .logo-header {
@@ -83,6 +80,8 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     margin-right: 76px;
+    padding: 24px 0;
+    margin-right: 76px;
 }
 
 .nav-header {
@@ -92,7 +91,7 @@ img {
 
 .nav-header-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 40px;
 }
 
@@ -112,13 +111,13 @@ img {
 
 .address-header {
     font-style: normal;
+    margin-left: auto;
 }
 
 .address-header-list {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     gap: 40px;
-    padding: 24px 0;
 }
 
 .address-item {
@@ -139,6 +138,9 @@ img {
     justify-content: center;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 70%), rgba(46, 47, 66, 70%)), 
+    url(/images/people-office\ 1.svg);
+    background-repeat: no-repeat;
 }
 
 .main-section .container {
@@ -339,7 +341,8 @@ img {
 }
 
 .page-footer .container {
-    padding-left: 156px;
+    margin-left: 156px;
+    max-width: 264px;
 }
 
 .logo-footer {
@@ -362,5 +365,4 @@ img {
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
-    max-width: 264px;
 }

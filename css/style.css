@@ -21,6 +21,10 @@ li {
     padding-left: 0;
 }
 
+ul {
+    padding: 0;
+}
+
 a:hover,
 a:focus
 {
@@ -190,7 +194,6 @@ img {
 .second-section-list {
     display: flex;
     gap: 24px;
-    padding-inline-start: 0;
 }
 
 .second-section-list-item {
@@ -229,7 +232,6 @@ img {
 .team-section-list {
     display: flex;
     gap: 24px;
-    padding-inline-start: 0;
 }
 
 .team-section-item {
@@ -279,14 +281,7 @@ img {
 }
 
 .portfolio-section {
-    display: flex;
     padding: 120px 0;
-    justify-content: center;
-}
-
-.portfolio-section .container {
-    display: flex;
-    flex-direction: column;
 }
 
 .portfolio-section-header {
@@ -304,7 +299,6 @@ img {
     flex-wrap: wrap;
     row-gap: 48px;
     column-gap: 24px;
-    padding-inline-start: 0;
 }
 
 .portfolio-section-list-item {

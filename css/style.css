@@ -142,8 +142,8 @@ img {
     justify-content: center;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(to bottom, rgba(46, 47, 66, 70%), rgba(46, 47, 66, 70%)), 
-    url(/images/people-office.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 70%), rgba(46, 47, 66, 70%)), 
+    url(../images/people-office.jpg);
     background-repeat: no-repeat;
     box-shadow: 0px 4px 4px 0pX rgba(0, 0, 0, 0.25);
 }
@@ -201,6 +201,21 @@ img {
     flex-basis: calc((100% - 72px) / 4);
 }
 
+.second-section-picture {
+    box-sizing: border-box;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    padding: 24px 100px;
+    background-color: #F4F4FD;
+}
+
+.icon {
+   
+}
 .second-section-header {
     font-weight: 500;
     font-size: 20px;
@@ -261,6 +276,8 @@ img {
 .team-section-item-text {
     padding-top: 32px;
     padding-bottom: 32px;
+    padding-right: 16px;
+    padding-left: 16px;
 }
 .team-section-name {
     font-weight: 500;
@@ -279,6 +296,23 @@ img {
     line-height: 1.5;
     color: #434455;
     text-align: center;
+    margin-bottom: 8px;
+}
+
+.team-sosial-media-list {
+    display: flex;
+    gap: 24px;
+    padding: 0;
+}
+
+.team-sosial-media-list-item {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4D5AE5;
 }
 
 .portfolio-section {
@@ -343,11 +377,14 @@ img {
     background-color: #2E2F42;
     padding-top: 100px;
     padding-bottom: 100px;
+    display: flex;
+    text-align: start;
 }
 
-.page-footer .container {
+.footer-container {
     margin-left: 156px;
     max-width: 264px;
+    margin-right: 120px;
 }
 
 .logo-footer {
@@ -370,4 +407,28 @@ img {
     line-height: 1.5;
     color:#F4F4FD;
     letter-spacing: 0.02em;
+}
+
+.footer-sosial-media-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
+.footer-sosial-media-list {
+    display: flex;
+    gap: 16px;
+    padding: 0;
+}
+
+.footer-sosial-media-list-item {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4D5AE5;
 }
